@@ -1,0 +1,21 @@
+{   
+    "ownerName":"矻紇",
+    "title":"{ownerName}之誌網",
+    "home":{
+        "title":"恭迎至{ownerName}之誌網！",
+        "description":"方司之……",
+        "langBotton":"迭文…",
+        "detailedDescription":"此乃{ownerName}示其工程暨所思之所，且隨意覽之。且{ownerName}程式之藝尚淺（碼多由人工智能所代撰）。彼方習前端開發之道，冀望再爲佳工！"
+    },
+    "nav": {
+        "home": "首葉",
+        "about": "有涉",
+        "projects": "工程",
+        "contact": "聯繫"
+    },
+    "footer": {
+        "rights": "盡權所持"
+        ,"bilibili":"觱篥",
+        "github":"訖合"
+    }
+}

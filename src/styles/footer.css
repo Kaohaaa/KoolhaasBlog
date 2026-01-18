@@ -1,0 +1,66 @@
+.site-footer {
+    width: 100%;
+    padding: 40px 0;
+    background: #9BBB72;
+    color: white;
+    position: relative;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 150ms ease;
+}
+
+.meta {
+    gap: 12px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meta small {
+    color: white;
+}
+
+/* language buttons */
+.lang {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.lang button {
+    background: transparent;
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* responsive */
+@media (min-width: 640px) {
+    .meta { flex-direction: row; }
+}

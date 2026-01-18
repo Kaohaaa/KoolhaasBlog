@@ -1,0 +1,21 @@
+{   
+    "ownerName":"考哈",
+    "title":"{ownerName}的博客",
+    "home":{
+        "title":"欢迎来到{ownerName}的博客！",
+        "description":"仍在处理……",
+        "langBotton":"切换语言…",
+        "detailedDescription":"这是一个{ownerName}展示项目和想法的地方，请随意浏览。而且{ownerName}其实并不大会编程（大部分代码事喂给AI写滴）。他正在学习前端开发，希望能做出更好的项目！"
+    },
+    "nav": {
+        "home": "首页",
+        "about": "关于",
+        "projects": "项目",
+        "contact": "联系"
+    },
+    "footer": {
+        "rights": "版权所有",
+        "bilibili":"B站",
+        "github":"GitHub"
+    }
+}
