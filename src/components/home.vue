@@ -18,21 +18,6 @@ const { t } = useI18n()
   <h2>{{ t("home.description") }}</h2>
   <p>
     {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
-  </p>  
-  <p>
-    {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
-  </p>
-  <p>
-    {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
-  </p>
-  <p>
-    {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
-  </p>
-  <p>
-    {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
-  </p>
-  <p>
-    {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
   </p>
 
   <webFooter />
