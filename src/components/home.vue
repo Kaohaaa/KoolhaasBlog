@@ -14,8 +14,9 @@ const { t } = useI18n()
     <h1>
       {{ t("home.title", { ownerName: t("ownerName") }) }}
     </h1>
+    <h2>{{ t("home.subtitle", { ownerName: t("ownerName") }) }}</h2>
   </div>
-  <h2>{{ t("home.description") }}</h2>
+  <h3>{{ t("home.description") }}</h3>
   <p>
     {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
   </p>

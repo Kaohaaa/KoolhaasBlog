@@ -2,8 +2,9 @@
     "ownerName":"Koolhaas",
     "title":"{ownerName}' Blog",
     "home":{
-        "title":"Welcome to {ownerName}' Blog!",
-        "description":"Still Processing...",
+        "title":"{ownerName}' Blog",
+        "subtitle":"「A plain {ownerName}」",
+        "description":"Still Processing",
         "langBotton":"Switch Language...",
         "detailedDescription":"This is a place for {ownerName} to showcase projects and ideas, feel free to browse around. Also, {ownerName} is not very good at programming (most of the code is written by AI). He is learning front-end development and hopes to create better projects!"
     },

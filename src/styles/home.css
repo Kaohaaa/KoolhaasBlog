@@ -2,7 +2,7 @@ h1 {
     width: max-content;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
     color: white;
     z-index: 2;
@@ -12,7 +12,19 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 {
+h2{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
     padding: 5%;
     color: gray;
     font-size: xx-large;
@@ -100,6 +112,5 @@ ul::-webkit-scrollbar-thumb {
 .headimg {
     padding: 0;
     width: 100%;
-    height: auto;
     display: block;
 }
