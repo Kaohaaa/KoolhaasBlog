@@ -4,7 +4,7 @@
     "home":{
         "title":"{ownerName}之誌",
         "subtitle":"「本是人間一塵客，{ownerName}閑伴竹風清」",
-        "description":"方司之",
+        "description":"方司之……",
         "langBotton":"迭文…",
         "detailedDescription":"此乃{ownerName}示其工程暨所思之所，且隨意覽之。且{ownerName}程式之藝尚淺（碼多由人工智能所代撰）。彼方習前端開發之道，冀望再爲佳工！"
     },
