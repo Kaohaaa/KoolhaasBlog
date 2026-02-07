@@ -1,4 +1,4 @@
-<!-- filepath: e:\vue-project\src\components\footer.vue -->
+<!-- src\components\footer.vue -->
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
