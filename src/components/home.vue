@@ -10,7 +10,7 @@ const ownerName = t("ownerName")
 <template>
   <navBar />
   <div class="hero" style="position:relative;">
-    <img src="../images/home-bg.png" alt="home-bg" class="headimg">
+    <img src="../images/home.png" alt="home-bg" class="headimg">
     <h1>
       {{ t("home.title", { ownerName }) }}
     </h1>
