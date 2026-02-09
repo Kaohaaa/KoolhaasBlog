@@ -18,5 +18,7 @@
         "rights": "版權所有",
         "bilibili":"嗶站",
         "github":"GitHub"
-    }
+    },
+    "md_title":"現在支持Markdown！",
+    "md_description":"這兩行文字由markdown完成。"
 }

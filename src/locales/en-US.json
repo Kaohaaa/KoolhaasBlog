@@ -18,5 +18,7 @@
         "rights": "All rights reserved",
         "bilibili":"Bilibili",
         "github":"GitHub"
-    }
+    },
+    "md_title":"Markdown Support Now!",
+    "md_description":"These two lines of text are done by markdown."
 }

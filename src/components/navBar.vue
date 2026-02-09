@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
-const ownerName = t('ownerName')
+
 </script>
 
 <template>
@@ -12,7 +12,7 @@ const ownerName = t('ownerName')
             <div class="brand">
                 <a href="">
                     <img src="/Koolhaas.png" alt="" class="logo">
-                    {{ t('title', { ownerName}) }}
+                    {{ t('title', { ownerName: t("ownerName") }) }}
                 </a>
             </div>
 

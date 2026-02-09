@@ -18,5 +18,7 @@
         "rights": "版权所有",
         "bilibili":"B站",
         "github":"GitHub"
-    }
+    },
+    "md_title":"现在支持Markdown！",
+    "md_description":"这两行文字由markdown完成。"
 }
