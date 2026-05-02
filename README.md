@@ -8,7 +8,7 @@ You can change it to your own blog with several simple steps:
 
 1. Fork the respository. 
 
-2. Modify `ownerNme` to your name in `zh-CN.json` and other language files. 
+2. Modify `ownerName` to your name in `zh-CN.json` and other language files. 
 
 3. Replace some picture in `public` and `images` to make. 
 
