@@ -10,7 +10,7 @@ const year = new Date().getFullYear()
         <div class="container">
             <ul class="links" aria-label="footer links">
                 <li><a href="https://space.bilibili.com/1195167431" target="_blank">{{ t('footer.bilibili') }}</a></li>
-                <li><a href="https://github.com/Kaohaaa" target="_blank">{{ t('footer.github') }}</a></li>
+                <li><a href="https://github.com/Kaohaaa/KoolhaasBlog" target="_blank">{{ t('footer.github') }}</a></li>
             </ul>
 
             <div class="meta">
