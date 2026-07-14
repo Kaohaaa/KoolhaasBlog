@@ -14,7 +14,7 @@ const { t } = useI18n()
 <template>
   <navBar />
   <div class="hero" style="position:relative;">
-    <img src="../images/home.png" alt="home-bg" class="headimg">
+    <img src="../../public/images/home.png" alt="home-bg" class="headimg">
     <h1>
       {{ t("home.title", { ownerName: t("ownerName") }) }}
     </h1>

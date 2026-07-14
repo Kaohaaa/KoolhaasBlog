@@ -6,9 +6,8 @@
  import markdownIt from 'markdown-it'
  import hljs from 'highlight.js'
  import 'highlight.js/styles/atom-one-light.css'
- // 1. 新增：引入vue-i18n的useI18n
  import { useI18n } from 'vue-i18n'
- // 2. 新增：解构t方法（用于解析国际化键值）
+
  const { t } = useI18n()
  const props = defineProps({
    md: {
@@ -33,10 +32,7 @@
  })
  const renderMd = (content) => {
    if (!content) return ''
-   // 3. 核心修改：先解析MD中的国际化占位符，再渲染为HTML
-   // 占位符语法：{{ 国际化键名 }}，例如{{ title }} {{ desc }}
    const processedContent = content.replace(/\{\{ (\w+) \}\}/g, (_, key) => t(key))
-   // 用处理后的内容渲染（替换原直接渲染content）
    renderedHtml.value = md.render(processedContent)
  }
  watch(() => props.md, (newVal) => {
@@ -44,7 +40,6 @@
  }, { immediate: true, deep: true })
  </script>
  <style scoped>
- /* 原有样式完全不变，无需修改 */
  .markdown-content {
   text-align: center;
    line-height: 1.8;
