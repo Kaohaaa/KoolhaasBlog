@@ -12,22 +12,21 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <navBar />
-  <div class="hero" style="position:relative;">
-    <img src="../../public/images/home.png" alt="home-bg" class="headimg">
-    <h1>
-      {{ t("home.title", { ownerName: t("ownerName") }) }}
-    </h1>
-    <h2>{{ t("home.subtitle", { ownerName: t("ownerName") }) }}</h2>
-  </div>
-  <h3>{{ t("home.description") }}</h3>
-  <p>
+    <navBar />
+    <div class="hero" style="position:relative;">
+        <img src="/images/home.png" alt="home-bg" class="headimg">
+        <h1>{{ t("home.title", { ownerName: t("ownerName") }) }}</h1>
+        <h2>{{ t("home.subtitle", { ownerName: t("ownerName") }) }}</h2>
+    </div>
+
+    <h3>{{ t("home.description") }}</h3>
+    <p>
     {{ t("home.detailedDescription", { ownerName: t("ownerName") }) }}
-  </p>
-  <mdSupport :md="markdownText"/>
+    </p>
 
+    <mdSupport :md="markdownText"/>
 
-  <webFooter />
+    <webFooter />
 </template>
 
 <style scoped>
@@ -39,7 +38,7 @@ h1 {
     transform: translate(-50%, -50%);
     color: white;
     z-index: 2;
-    font-size: 80px;
+    font-size: 6vw;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
@@ -52,6 +51,7 @@ h2{
     transform: translate(-50%, -50%);
     color: white;
     z-index: 2;
+    font-size: 2vw;
     font-weight: lighter;
     text-align: center;
     margin-bottom: 20px;
