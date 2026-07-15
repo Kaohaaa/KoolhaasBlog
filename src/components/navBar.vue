@@ -11,7 +11,7 @@ const { t } = useI18n()
             
             <div class="brand">
                 <a href="">
-                    <img src="/Koolhaas.png" alt="" class="logo">
+                    <img src="../../public/images/Koolhaas.png" alt="" class="logo">
                     {{ t('title', { ownerName: t("ownerName") }) }}
                 </a>
             </div>
