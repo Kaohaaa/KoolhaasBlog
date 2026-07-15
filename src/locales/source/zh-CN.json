@@ -6,7 +6,7 @@
         "subtitle":"「一只平凡的{ownerName}」",
         "description":"仍在建设……",
         "langBotton":"切换语言…",
-        "detailedDescription":"这是一个{ownerName}展示项目和想法的地方，请随意浏览。而且{ownerName}其实并不大会编程（大部分代码事喂给AI写滴）。他正在学习前端开发，希望能做出更好的项目！"
+        "detailedDescription":"这是一个{ownerName}展示项目和想法的地方，请随意浏览。而且{ownerName}其实并不大会编程（大部分代码事喂给 AI 写滴）。他正在学习前端开发，希望能做出更好的项目！"
     },
     "nav": {
         "home": "首页",
@@ -19,6 +19,6 @@
         "bilibili":"B站",
         "github":"GitHub"
     },
-    "md_title":"现在支持Markdown！",
-    "md_description":"这两行文字由markdown完成。"
+    "md_title":"现在支持 Markdown！",
+    "md_description":"这两行文字由 Markdown 完成。"
 }

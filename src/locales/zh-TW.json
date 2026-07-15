@@ -6,7 +6,7 @@
         "subtitle":"「一只平凡的{ownerName}」",
         "description":"仍在建设……",
         "langBotton":"切換語言…",
-        "detailedDescription":"這是一個{ownerName}展示項目和想法的地方，請隨意瀏覽。而且{ownerName}其實並不大會編程（大部分代碼事喂給AI寫滴）。他正在學習前端開發，希望能做出更好的項目！"
+        "detailedDescription":"這是一個{ownerName}展示項目和想法的地方，請隨意瀏覽。而且{ownerName}其實並不大會編程（大部分代碼事喂給 AI 寫滴）。他正在學習前端開發，希望能做出更好的項目！"
     },
     "nav": {
         "home": "首頁",
@@ -19,6 +19,6 @@
         "bilibili":"嗶站",
         "github":"GitHub"
     },
-    "md_title":"現在支持Markdown！",
-    "md_description":"這兩行文字由markdown完成。"
+    "md_title":"現在支持 Markdown！",
+    "md_description":"這兩行文字由 Markdown 完成。"
 }
